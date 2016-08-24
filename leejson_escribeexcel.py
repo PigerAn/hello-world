@@ -2,7 +2,7 @@ import os
 import json
 import xlwt
 
-
+#   Asignamos el nombre del archivo
 fileJson = 'Schedules.json'
 
 if os.path.exists(fileJson): # try path as-is
